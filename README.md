@@ -74,7 +74,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
 
 ---
 
-## 3. Model Training and Evaluation
+## 3. Machine Learning Models used
+## Regression Models
 
 ### Linear Regression
 
@@ -95,7 +96,7 @@ print(f"Linear Regression R² Score: {linear_r2}")
 
 ### Ridge Regression
 
-To address potential overfitting, we use **Ridge Regression** with regularization. The best alpha value is chosen based on the R² score:
+To address potential overfitting, we use **Ridge Regression** with regularisation. The best alpha value is chosen based on the R² score:
 
 ```python
 # Train Ridge Regression with multiple alpha values
@@ -136,7 +137,7 @@ print(f"Polynomial Regression R² Score: {poly_r2}")
 
 ---
 
-## 4. Clustering Models
+## Clustering Models
 
 ### K-Means Clustering
 
@@ -216,7 +217,7 @@ print(f"Best DBSCAN eps={best_eps}, min_samples={best_min_samples}")
 
 ---
 
-## 5. Prediction
+## 4. Prediction
 
 ### Making Predictions
 
@@ -231,7 +232,7 @@ print("Predicted House Prices:", predictions)
 
 ---
 
-## 6. Conclusion
+## 5. Conclusion
 
 This project uses machine learning models for predicting housing prices and clustering properties. **Ridge Regression** outperforms other models for prediction, while **DBSCAN** is the most suitable clustering technique, offering meaningful clusters of properties.
 
